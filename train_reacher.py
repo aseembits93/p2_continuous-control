@@ -13,7 +13,10 @@ brain_name = env.brain_names[0]
 brain = env.brains[brain_name]
 env_info = env.reset(train_mode=True)[brain_name]
 n_agents = len(env_info.agents)
-seed = random.randint(1,100)
+#seed = random.randint(1,100)
+
+seed = 89
+
 print("Seed : {}".format(seed))
 agent = Agent(state_size=33, action_size=4, random_seed=seed)
 def ddpg(n_episodes=1000, print_every=1):
