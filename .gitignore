@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+Reacher_Linux_v1/
+Reacher_Linux_v2/
+__pycache__/
+unity-environment.log
+*.zip
